@@ -104,7 +104,7 @@ if (g.toElement === grnpl) {
   document.querySelector('body').style.backgroundColor=  "#585123";
   document.querySelector('.cardbodycontainer').style.removeProperty('filter');
   document.querySelector('#filter').style.removeProperty('filter');
-  audio.setAttribute("src", "/music/cleo's tune.mp3");
+  audio.setAttribute("src", "./music/cleo's tune.mp3");
   searchitems.placeholder= "Now Playing: Cleo's Tune";
   audio.play();
 
@@ -117,7 +117,7 @@ document.querySelector('.cardbodyborder').style.filter= "hue-rotate(90deg)";
 document.querySelector('body').style.backgroundColor=  "#235836";
 document.querySelector('.cardbodycontainer').style.filter= "hue-rotate(90deg)";
 document.querySelector('#filter').style.filter= "hue-rotate(90deg)";
-audio.setAttribute("src", "/music/people and flowers.mp3");
+audio.setAttribute("src", "./music/people and flowers.mp3");
 searchitems.placeholder= "Now Playing: People And Flowers";
 audio.play();
 
@@ -131,7 +131,7 @@ else if (g.toElement === purppl){
   document.querySelector('body').style.backgroundColor=  "#58233c";
   document.querySelector('.cardbodycontainer').style.filter= "hue-rotate(-81deg)";
   document.querySelector('#filter').style.filter= "hue-rotate(-81deg)";
-  audio.setAttribute("src", "/music/hey siri, power off.mp3");
+  audio.setAttribute("src", "./music/hey siri, power off.mp3");
   searchitems.placeholder= "Now Playing: Hey Siri, Power Off";
   audio.play();
 
@@ -145,7 +145,7 @@ else if (g.toElement === eggpl){
     document.querySelector('body').style.backgroundColor=  "#462358";
     document.querySelector('.cardbodycontainer').style.filter= "hue-rotate(-132deg)";
     document.querySelector('#filter').style.filter= "hue-rotate(-132deg)";
-    audio.setAttribute("src", "/music/twilight friends.mp3");
+    audio.setAttribute("src", "./music/twilight friends.mp3");
     searchitems.placeholder= "Now Playing: Twilight Friends";
     audio.play();
 
@@ -159,7 +159,7 @@ else if (g.toElement === tlpl){
       document.querySelector('body').style.backgroundColor=  "#375823";
       document.querySelector('.cardbodycontainer').style.filter= "hue-rotate(45deg)";
       document.querySelector('#filter').style.filter= "hue-rotate(45deg)";
-      audio.setAttribute("src", "/music/midnight snack.mp3");
+      audio.setAttribute("src", "./music/midnight snack.mp3");
       searchitems.placeholder= "Now Playing: Midnight Snack";
       audio.play();
 
