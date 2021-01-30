@@ -53,7 +53,7 @@ audio:hover {
 }
 
 .bar {
-  cursor: url("/img/fingerred.png"), url("/img/finger.png"), auto;
+  cursor: url("./img/fingerred.png"), url("./img/finger.png"), auto;
   position: fixed;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -84,7 +84,7 @@ img[class="barobj"] {
 }
 
 #filter {
-  cursor: url("/img/fingerblu.png"), url("/img/finger.png"), auto;
+  cursor: url("./img/fingerblu.png"), url("./img/finger.png"), auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,7 +104,7 @@ body {
 }
 
 .cardbodycontainer {
-  cursor: url("/img/finger.png"), url("/img/fingerblu.png"), auto;
+  cursor: url("./img/finger.png"), url("./img/fingerblu.png"), auto;
   background-color: #A8B6A0;
   position: absolute;
   left: 0;
@@ -134,7 +134,7 @@ body {
 
 input[type="text"] {
   background-color: #A8B6A0;
-  cursor: url("/img/fingerblu.png"), url("/img/finger.png"), auto;
+  cursor: url("./img/fingerblu.png"), url("./img/finger.png"), auto;
   position: relative;
   top: 6vh;
   margin: 2vh;
@@ -189,7 +189,7 @@ input:focus {
 }
 
 input:active {
-  cursor: url("/img/fingerred.png"), url("/img/finger.png"), auto;
+  cursor: url("./img/fingerred.png"), url("./img/finger.png"), auto;
 }
 
 .list-group {
@@ -241,7 +241,7 @@ input:active {
 }
 
 button {
-  cursor: url("/img/fingerblu.png"), url("/img/finger.png"), auto;
+  cursor: url("./img/fingerblu.png"), url("./img/finger.png"), auto;
   margin: 11px;
   padding: 6px;
   background-color: #A8B6A0;
@@ -259,7 +259,7 @@ button:focus {
 }
 
 button:active {
-  cursor: url("/img/fingerred.png"), url("/img/finger.png"), auto;
+  cursor: url("./img/fingerred.png"), url("./img/finger.png"), auto;
 }
 
 .pulse {
