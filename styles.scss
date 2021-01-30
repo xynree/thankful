@@ -148,10 +148,10 @@ input[type="text"] { background-color: #A8B6A0;
   position: relative;
   top: 6vh;
   margin: 2vh;
-  width: 20vw;
+  width: 30vw;
   height: 50px;
   border: dashed 3px #58699d ;
-  font-size: 28px;
+  font-size: 24px;
   text-align: right;
   text-transform: uppercase;
   text-shadow: 0px 0px 7px rgb(105, 143, 121);
@@ -165,8 +165,6 @@ input::placeholder {
   color:#A8B6A0;
   text-align: right;
   text-shadow: 0px 0px 7px rgb(105, 143, 121);
-
-
 
 }
 input:hover{
@@ -205,9 +203,7 @@ display: none;}
   display: flex;
   justify-content: flex-end;
   align-items: center;
-
   list-style-type: none;
-
   text-align: right;
   font-family: Helvetica;
   font-weight: 400;
@@ -257,3 +253,84 @@ button:active  {
 .pulse {
   text-shadow: 0px 0px 2px #58699d;
 }
+
+
+/* MEDIA QUERIES */
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 736px) 
+  // and (orientation: portrait)
+{
+
+.cardbodycontainer {
+  top: 20vh;
+  bottom: 20vh;
+  width: 85vw;
+  height: 85vh;
+}
+
+.cardbodyborder {
+  width: 95%;
+  height: 95.5%;
+}
+
+.titleclass {
+  width: 85vw;
+  height: 12vh;
+}
+
+#headertitleid {
+  font-size: 2rem;
+  padding: 10px;
+}
+
+audio {position: fixed;
+  bottom: 16vh;
+  width: 60vw;
+  height: 80px;
+}
+
+
+.bar {
+  width: 85vw;
+  height: 8vh;
+}
+
+img[class="barobj"] {
+  width: 10vw;
+  height: 100%;
+  flex: 1;
+}
+
+input[type="text"] { 
+  font-size: 16px;
+  top: 3vh;
+  margin: 2vh;
+  width: 60vw;
+  height: 50px;}
+
+
+.list-group {
+  top: 5vh;
+  width: 250px;
+}
+#filter {
+  cursor: $cursorblu;
+  display: flex;
+  flex: 1;
+  height: 100%;
+  width: 100%
+  }
+
+  #filter::placeholder {
+  text-align: left;   
+  font-size: 1rem;
+  padding: 0; 
+  }
+
+
+
+}
+

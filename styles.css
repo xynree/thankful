@@ -138,10 +138,10 @@ input[type="text"] {
   position: relative;
   top: 6vh;
   margin: 2vh;
-  width: 20vw;
+  width: 30vw;
   height: 50px;
   border: dashed 3px #58699d;
-  font-size: 28px;
+  font-size: 24px;
   text-align: right;
   text-transform: uppercase;
   text-shadow: 0px 0px 7px #698f79;
@@ -264,4 +264,85 @@ button:active {
 
 .pulse {
   text-shadow: 0px 0px 2px #58699d;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
+  .cardbodycontainer {
+    top: 20vh;
+    bottom: 20vh;
+    width: 85vw;
+    height: 85vh;
+  }
+  .cardbodyborder {
+    width: 95%;
+    height: 95.5%;
+  }
+  .titleclass {
+    width: 85vw;
+    height: 12vh;
+  }
+  #headertitleid {
+    font-size: 2rem;
+    padding: 10px;
+  }
+  audio {
+    position: fixed;
+    bottom: 16vh;
+    width: 60vw;
+    height: 80px;
+  }
+  .bar {
+    width: 85vw;
+    height: 8vh;
+  }
+  img[class="barobj"] {
+    width: 10vw;
+    height: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  input[type="text"] {
+    font-size: 16px;
+    top: 3vh;
+    margin: 2vh;
+    width: 60vw;
+    height: 50px;
+  }
+  .list-group {
+    top: 5vh;
+    width: 250px;
+  }
+  #filter {
+    cursor: url("./img/fingerblu.png"), url("./img/finger.png"), auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    height: 100%;
+    width: 100%;
+  }
+  #filter::-webkit-input-placeholder {
+    text-align: left;
+    font-size: 1rem;
+    padding: 0;
+  }
+  #filter:-ms-input-placeholder {
+    text-align: left;
+    font-size: 1rem;
+    padding: 0;
+  }
+  #filter::-ms-input-placeholder {
+    text-align: left;
+    font-size: 1rem;
+    padding: 0;
+  }
+  #filter::placeholder {
+    text-align: left;
+    font-size: 1rem;
+    padding: 0;
+  }
 }
