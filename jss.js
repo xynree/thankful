@@ -35,7 +35,6 @@ setInterval(pulse,70);
 
 remove = (x) => {
   if(x.target.classList.contains('delbtn')){
-    console.log(x.target.parentElement);
     rem = x.target.parentElement;
     list.removeChild(rem);
   }
@@ -67,7 +66,6 @@ if (e.key === "Enter") {
 
   list.appendChild(li);
   li.appendChild(del);
-  console.log(list);
   e.target.value = "";
 }
 
@@ -85,7 +83,6 @@ if (f.key !== "Enter") {return};
 
     // )
     
-    console.log(f.key);
 
   }
 }
