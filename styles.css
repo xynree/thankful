@@ -267,12 +267,12 @@ button:active {
 }
 
 /* MEDIA QUERIES */
-@media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
+@media only screen and (max-device-width: 736px) {
   .cardbodycontainer {
-    top: 20vh;
+    top: 22.5vh;
     bottom: 20vh;
     width: 85vw;
-    height: 85vh;
+    height: 81vh;
   }
   .cardbodyborder {
     width: 95%;
@@ -293,6 +293,8 @@ button:active {
     height: 80px;
   }
   .bar {
+    position: fixed;
+    bottom: 0;
     width: 85vw;
     height: 8vh;
   }
@@ -312,7 +314,7 @@ button:active {
   }
   .list-group {
     top: 5vh;
-    width: 250px;
+    width: 230px;
   }
   #filter {
     cursor: url("./img/fingerblu.png"), url("./img/finger.png"), auto;

@@ -259,16 +259,15 @@ button:active  {
 
 
 @media only screen 
-  and (min-device-width: 320px) 
   and (max-device-width: 736px) 
   // and (orientation: portrait)
 {
 
 .cardbodycontainer {
-  top: 20vh;
+  top: 22.5vh;
   bottom: 20vh;
   width: 85vw;
-  height: 85vh;
+  height: 81vh;
 }
 
 .cardbodyborder {
@@ -294,6 +293,8 @@ audio {position: fixed;
 
 
 .bar {
+  position: fixed;
+  bottom: 0;
   width: 85vw;
   height: 8vh;
 }
@@ -314,7 +315,7 @@ input[type="text"] {
 
 .list-group {
   top: 5vh;
-  width: 250px;
+  width: 230px;
 }
 #filter {
   cursor: $cursorblu;
